@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="modeloLogicoAPPMusica" id="C80A710B-31A8-1CF4-4D07-9EA0D02D7BEF" version="3.5">
+<createdBy>freit</createdBy>
+<createdTime>2023-02-09 01:18:44 UTC</createdTime>
+<ownerDesignName>modeloLogicoAPPMusica</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>C80A710B-31A8-1CF4-4D07-9EA0D02D7BEF</designId>
+</OSDM_Design>
