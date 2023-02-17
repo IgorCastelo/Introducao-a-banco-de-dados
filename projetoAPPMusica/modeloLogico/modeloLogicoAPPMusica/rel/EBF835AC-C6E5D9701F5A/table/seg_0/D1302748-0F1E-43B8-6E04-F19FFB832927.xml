@@ -1,0 +1,116 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D1302748-0F1E-43B8-6E04-F19FFB832927" name="catao_credito">
+<createdBy>freit</createdBy>
+<createdTime>2023-02-09 02:31:40 UTC</createdTime>
+<ownerDesignName>modeloLogicoAPPMusica</ownerDesignName>
+<ordsAlias>table_16</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_cartao" id="A5A7C8B3-8317-CD1F-5478-51F83584A3DD">
+<createdBy>freit</createdBy>
+<createdTime>2023-02-09 02:35:40 UTC</createdTime>
+<ownerDesignName>modeloLogicoAPPMusica</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nome_impresso" id="8ACEF7A0-0999-41A6-2700-93B932F321B6">
+<createdBy>freit</createdBy>
+<createdTime>2023-02-09 02:35:40 UTC</createdTime>
+<ownerDesignName>modeloLogicoAPPMusica</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60</dataTypeSize>
+<ownDataTypeParameters>60,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="numero" id="9A3E297B-4C6F-CD3D-218E-0FF287E1D73A">
+<createdBy>freit</createdBy>
+<createdTime>2023-02-09 02:35:40 UTC</createdTime>
+<ownerDesignName>modeloLogicoAPPMusica</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>16</dataTypePrecision>
+<ownDataTypeParameters>,16,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="validade_mês" id="8F7D59F5-7DF9-F441-CD23-477A79D15AE6">
+<createdBy>freit</createdBy>
+<createdTime>2023-02-09 02:35:40 UTC</createdTime>
+<ownerDesignName>modeloLogicoAPPMusica</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="validade_ano" id="37783457-39F2-3D0B-69A1-971052D932EC">
+<createdBy>freit</createdBy>
+<createdTime>2023-02-09 02:35:40 UTC</createdTime>
+<ownerDesignName>modeloLogicoAPPMusica</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cvv" id="682FE5D5-FD76-3965-DE31-049455CE25B5">
+<createdBy>freit</createdBy>
+<createdTime>2023-02-09 02:35:40 UTC</createdTime>
+<ownerDesignName>modeloLogicoAPPMusica</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="usuario_id_usuario" id="1E465967-83AC-F286-DD08-17C7B372C8A5">
+<createdBy>freit</createdBy>
+<createdTime>2023-02-09 02:36:51 UTC</createdTime>
+<ownerDesignName>modeloLogicoAPPMusica</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>1</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7FB289F0-88E5-5AC3-5EF8-DCA1092F4187" referredColumn="00F179A1-CD04-340C-B3C0-A5D36D229EC1"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A327C4ED-8C33-DEB7-82B3-33AD837D2033" name="catao_credito_PK">
+<createdBy>freit</createdBy>
+<createdTime>2023-02-09 02:35:40 UTC</createdTime>
+<ownerDesignName>modeloLogicoAPPMusica</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A5A7C8B3-8317-CD1F-5478-51F83584A3DD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="37BFC98C-5B96-2A0C-083D-065DC97E771B" name="catao_credito_usuario_FK">
+<createdBy>freit</createdBy>
+<createdTime>2023-02-09 02:36:51 UTC</createdTime>
+<ownerDesignName>modeloLogicoAPPMusica</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1E465967-83AC-F286-DD08-17C7B372C8A5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

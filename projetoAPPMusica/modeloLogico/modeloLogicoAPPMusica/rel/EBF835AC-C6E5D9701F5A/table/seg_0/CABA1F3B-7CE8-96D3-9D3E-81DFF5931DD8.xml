@@ -1,0 +1,46 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="CABA1F3B-7CE8-96D3-9D3E-81DFF5931DD8" name="estilo">
+<createdBy>freit</createdBy>
+<createdTime>2023-02-09 01:34:20 UTC</createdTime>
+<ownerDesignName>modeloLogicoAPPMusica</ownerDesignName>
+<ordsAlias>table_7</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_estilo" id="42E8DDF3-CCA6-0A19-9BFA-A2ECC3A18BCA">
+<createdBy>freit</createdBy>
+<createdTime>2023-02-09 01:35:19 UTC</createdTime>
+<ownerDesignName>modeloLogicoAPPMusica</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="estilo" id="97F13FDA-AC90-FB35-B3BC-E20C730D8B1A">
+<createdBy>freit</createdBy>
+<createdTime>2023-02-09 01:35:19 UTC</createdTime>
+<ownerDesignName>modeloLogicoAPPMusica</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3620C6E7-37CA-1D0B-CCDD-216497404933" name="estilo_PK">
+<createdBy>freit</createdBy>
+<createdTime>2023-02-09 01:35:19 UTC</createdTime>
+<ownerDesignName>modeloLogicoAPPMusica</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="42E8DDF3-CCA6-0A19-9BFA-A2ECC3A18BCA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

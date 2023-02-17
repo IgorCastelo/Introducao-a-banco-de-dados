@@ -1,0 +1,151 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B178963C-3C8D-9D0E-957A-3EB1B507C220" name="musica">
+<createdBy>freit</createdBy>
+<createdTime>2023-02-09 01:26:37 UTC</createdTime>
+<ownerDesignName>modeloLogicoAPPMusica</ownerDesignName>
+<ordsAlias>table_4</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_musica" id="9BAB26FF-C434-88B5-691C-0E1299DBF427">
+<createdBy>freit</createdBy>
+<createdTime>2023-02-09 01:30:53 UTC</createdTime>
+<ownerDesignName>modeloLogicoAPPMusica</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>20</dataTypePrecision>
+<ownDataTypeParameters>,20,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="titulo" id="196762C5-6D66-34CB-0ED8-28A0938673C2">
+<createdBy>freit</createdBy>
+<createdTime>2023-02-09 01:30:53 UTC</createdTime>
+<ownerDesignName>modeloLogicoAPPMusica</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>80</dataTypeSize>
+<ownDataTypeParameters>80,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="duração" id="78338C28-40DE-CCC5-7289-18A2AC83FD6E">
+<createdBy>freit</createdBy>
+<createdTime>2023-02-09 01:30:53 UTC</createdTime>
+<ownerDesignName>modeloLogicoAPPMusica</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ano" id="349C805C-11A9-2C05-FC4E-C42A734366A6">
+<createdBy>freit</createdBy>
+<createdTime>2023-02-09 01:30:53 UTC</createdTime>
+<ownerDesignName>modeloLogicoAPPMusica</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="letra" id="7A1FD5C2-67DB-D215-26E9-6B3FA618D642">
+<createdBy>freit</createdBy>
+<createdTime>2023-02-09 01:30:53 UTC</createdTime>
+<ownerDesignName>modeloLogicoAPPMusica</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT028</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="arquivo" id="E9EC0556-FC5E-07EE-F423-BEBEC50D702E">
+<createdBy>freit</createdBy>
+<createdTime>2023-02-09 01:30:53 UTC</createdTime>
+<ownerDesignName>modeloLogicoAPPMusica</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT029</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tags" id="B5524B8A-33D1-DC22-D2CC-C493DB7FEC7D">
+<createdBy>freit</createdBy>
+<createdTime>2023-02-09 01:30:53 UTC</createdTime>
+<ownerDesignName>modeloLogicoAPPMusica</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>500</dataTypeSize>
+<ownDataTypeParameters>500,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Artista_id_artista" id="06C55976-2394-C85D-EBD0-C9FBAC8F9195">
+<createdBy>freit</createdBy>
+<createdTime>2023-02-09 01:33:08 UTC</createdTime>
+<ownerDesignName>modeloLogicoAPPMusica</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6D5F82E5-E442-5A5E-0774-EE875B0628B2" referredColumn="63E72EEE-2B67-FAE6-1839-C4018CECB53A"/>
+</associations>
+</Column>
+<Column name="estilo_id_estilo" id="958A0F35-1BA8-0ABC-6E56-773799E8F7F1">
+<createdBy>freit</createdBy>
+<createdTime>2023-02-09 01:36:33 UTC</createdTime>
+<ownerDesignName>modeloLogicoAPPMusica</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="21BFD5A1-0D95-7889-5C07-61D8D331F6DA" referredColumn="42E8DDF3-CCA6-0A19-9BFA-A2ECC3A18BCA"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="AA7BFE16-6D2F-ACF0-B6FB-6EF60CAFF79F" name="musica_PK">
+<createdBy>freit</createdBy>
+<createdTime>2023-02-09 01:30:53 UTC</createdTime>
+<ownerDesignName>modeloLogicoAPPMusica</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9BAB26FF-C434-88B5-691C-0E1299DBF427"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E72AEF54-2554-DFBF-1A1D-6587FEEB00F0" name="musica_Artista_FK">
+<createdBy>freit</createdBy>
+<createdTime>2023-02-09 01:33:08 UTC</createdTime>
+<ownerDesignName>modeloLogicoAPPMusica</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="06C55976-2394-C85D-EBD0-C9FBAC8F9195"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BC8C054F-9C5D-DC00-0E62-304DAB35612E" name="musica_estilo_FK">
+<createdBy>freit</createdBy>
+<createdTime>2023-02-09 01:36:33 UTC</createdTime>
+<ownerDesignName>modeloLogicoAPPMusica</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="958A0F35-1BA8-0ABC-6E56-773799E8F7F1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

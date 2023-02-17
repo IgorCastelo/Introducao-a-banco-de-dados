@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5E897856-A1D6-4BEF-F9E0-7BB7141C233A" name="rel_lista_musica">
+<createdBy>freit</createdBy>
+<createdTime>2023-02-09 02:21:50 UTC</createdTime>
+<ownerDesignName>modeloLogicoAPPMusica</ownerDesignName>
+<ordsAlias>table_14</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ordem_musica" id="0906DC45-6567-AFAD-85FB-C58FC6ADF662">
+<createdBy>freit</createdBy>
+<createdTime>2023-02-09 02:22:47 UTC</createdTime>
+<ownerDesignName>modeloLogicoAPPMusica</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="lista_reproducao_id_lista" id="EEE917C5-4371-C0E7-A5A3-BF5BDC3D6E2D">
+<createdBy>freit</createdBy>
+<createdTime>2023-02-09 02:22:58 UTC</createdTime>
+<ownerDesignName>modeloLogicoAPPMusica</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>1</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D6ED88D4-5B70-174F-B327-89BE5F3D2AAA" referredColumn="8B32F036-1BE7-B3F6-3653-85EC6E14F643"/>
+</associations>
+</Column>
+<Column name="musica_id_musica" id="F6FB7461-81F3-AD65-88B7-E63F39E98780">
+<createdBy>freit</createdBy>
+<createdTime>2023-02-09 02:23:23 UTC</createdTime>
+<ownerDesignName>modeloLogicoAPPMusica</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>20</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="ECC57937-BDDF-41FF-A4EE-E8EC69222E03" referredColumn="9BAB26FF-C434-88B5-691C-0E1299DBF427"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A9BB859E-9D44-FEE5-AD3F-84FB1971FD63" name="rel_lista_musica_lista_reproducao_FK">
+<createdBy>freit</createdBy>
+<createdTime>2023-02-09 02:22:58 UTC</createdTime>
+<ownerDesignName>modeloLogicoAPPMusica</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EEE917C5-4371-C0E7-A5A3-BF5BDC3D6E2D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="61C3B564-0192-E2D4-12E6-DD78B0DF9D53" name="rel_lista_musica_musica_FK">
+<createdBy>freit</createdBy>
+<createdTime>2023-02-09 02:23:23 UTC</createdTime>
+<ownerDesignName>modeloLogicoAPPMusica</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F6FB7461-81F3-AD65-88B7-E63F39E98780"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

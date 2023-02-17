@@ -1,0 +1,143 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="CFE4ACF6-A475-FD3E-7F05-5D95537A5A81" name="usuario">
+<createdBy>freit</createdBy>
+<createdTime>2023-02-09 01:48:11 UTC</createdTime>
+<ownerDesignName>modeloLogicoAPPMusica</ownerDesignName>
+<ordsAlias>table_12</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_usuario" id="00F179A1-CD04-340C-B3C0-A5D36D229EC1">
+<createdBy>freit</createdBy>
+<createdTime>2023-02-09 01:52:06 UTC</createdTime>
+<ownerDesignName>modeloLogicoAPPMusica</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>1</dataTypePrecision>
+<ownDataTypeParameters>,1,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="foto" id="72792F81-59E0-18E0-611D-BAFCA37AFE91">
+<createdBy>freit</createdBy>
+<createdTime>2023-02-09 01:52:06 UTC</createdTime>
+<ownerDesignName>modeloLogicoAPPMusica</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT029</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nome_usuario" id="7C6F93B3-623E-0D03-4A78-501902B49CBC">
+<createdBy>freit</createdBy>
+<createdTime>2023-02-09 01:52:06 UTC</createdTime>
+<ownerDesignName>modeloLogicoAPPMusica</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="apelido" id="6131A15E-496F-1037-72A8-9466A9D0DF45">
+<createdBy>freit</createdBy>
+<createdTime>2023-02-09 01:52:06 UTC</createdTime>
+<ownerDesignName>modeloLogicoAPPMusica</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="email" id="AF23BDEA-27A2-BED6-0DD1-A1413BA16B41">
+<createdBy>freit</createdBy>
+<createdTime>2023-02-09 01:52:06 UTC</createdTime>
+<ownerDesignName>modeloLogicoAPPMusica</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>80</dataTypeSize>
+<ownDataTypeParameters>80,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="senha" id="2CC84F58-77BF-30D3-3F0D-50D0D9EAED8D">
+<createdBy>freit</createdBy>
+<createdTime>2023-02-09 01:52:06 UTC</createdTime>
+<ownerDesignName>modeloLogicoAPPMusica</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="plano_id_plano" id="BE9784C9-5557-64E9-42A8-E23B59E9B6D4">
+<createdBy>freit</createdBy>
+<createdTime>2023-02-09 02:31:26 UTC</createdTime>
+<ownerDesignName>modeloLogicoAPPMusica</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="800B0315-85C0-A7D2-3F21-189892E27C3C" referredColumn="1FF71597-F7B2-280B-678D-CF8724754286"/>
+</associations>
+</Column>
+<Column name="iid_usuario_responsavel" id="79193F1D-68BC-7D5C-252E-CEFE32D021BB">
+<createdBy>freit</createdBy>
+<createdTime>2023-02-09 02:53:56 UTC</createdTime>
+<ownerDesignName>modeloLogicoAPPMusica</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>1</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="03E08191-D51D-73EC-D47D-449BBD7DB700" referredColumn="00F179A1-CD04-340C-B3C0-A5D36D229EC1"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="87C8D119-1C9D-7907-32A0-E12926453344" name="usuario_PK">
+<createdBy>freit</createdBy>
+<createdTime>2023-02-09 01:52:06 UTC</createdTime>
+<ownerDesignName>modeloLogicoAPPMusica</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="00F179A1-CD04-340C-B3C0-A5D36D229EC1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="44CB890C-B073-4E57-A958-37B59BA7B6C2" name="usuario_plano_FK">
+<createdBy>freit</createdBy>
+<createdTime>2023-02-09 02:31:26 UTC</createdTime>
+<ownerDesignName>modeloLogicoAPPMusica</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BE9784C9-5557-64E9-42A8-E23B59E9B6D4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="05A9935F-C59E-D57A-6352-28D02C445285" name="usuario_usuario_FK">
+<createdBy>freit</createdBy>
+<createdTime>2023-02-09 02:53:55 UTC</createdTime>
+<ownerDesignName>modeloLogicoAPPMusica</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="79193F1D-68BC-7D5C-252E-CEFE32D021BB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

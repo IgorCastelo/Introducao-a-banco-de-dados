@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="ECC57937-BDDF-41FF-A4EE-E8EC69222E03" containerWithKeyObject="5E897856-A1D6-4BEF-F9E0-7BB7141C233A" localFKIndex="61C3B564-0192-E2D4-12E6-DD78B0DF9D53" name="rel_lista_musica_musica_FK">
+<createdBy>freit</createdBy>
+<createdTime>2023-02-09 02:23:23 UTC</createdTime>
+<ownerDesignName>modeloLogicoAPPMusica</ownerDesignName>
+<referredTableLongName>musica</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>B178963C-3C8D-9D0E-957A-3EB1B507C220</referredTableID>
+<keyObject>AA7BFE16-6D2F-ACF0-B6FB-6EF60CAFF79F</keyObject>
+<referredKeyID>AA7BFE16-6D2F-ACF0-B6FB-6EF60CAFF79F</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_musica</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

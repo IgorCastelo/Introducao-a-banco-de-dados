@@ -1,0 +1,82 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8ADD1EF7-C034-B1B2-A98F-7B50EF334711" name="Artista">
+<createdBy>freit</createdBy>
+<createdTime>2023-02-09 01:22:11 UTC</createdTime>
+<ownerDesignName>modeloLogicoAPPMusica</ownerDesignName>
+<ordsAlias>table_3</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_artista" id="63E72EEE-2B67-FAE6-1839-C4018CECB53A">
+<createdBy>freit</createdBy>
+<createdTime>2023-02-09 01:23:04 UTC</createdTime>
+<ownerDesignName>modeloLogicoAPPMusica</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nome_artista" id="E3FBF917-543E-8C02-6C1E-8C7D3338C17D">
+<createdBy>freit</createdBy>
+<createdTime>2023-02-09 01:23:04 UTC</createdTime>
+<ownerDesignName>modeloLogicoAPPMusica</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="bibliografia" id="E4959D6F-7A80-9615-337F-CC0A57E405C7">
+<createdBy>freit</createdBy>
+<createdTime>2023-02-09 01:26:35 UTC</createdTime>
+<ownerDesignName>modeloLogicoAPPMusica</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT029</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="pais_id_pais" id="B6373475-6DA3-DA21-532D-BF0FD4920EF5">
+<createdBy>freit</createdBy>
+<createdTime>2023-02-09 01:42:11 UTC</createdTime>
+<ownerDesignName>modeloLogicoAPPMusica</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BA1910E8-3C6D-F370-10DF-E530EA304C54" referredColumn="E3401510-1232-0412-AB3D-B6D69B9C3285"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="77EB7B5E-D4C3-F5DB-1F28-9ECC973C10B1" name="Artista_PK">
+<createdBy>freit</createdBy>
+<createdTime>2023-02-09 01:23:04 UTC</createdTime>
+<ownerDesignName>modeloLogicoAPPMusica</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="63E72EEE-2B67-FAE6-1839-C4018CECB53A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="79975449-E311-C017-DE74-1C36E3374741" name="Artista_pais_FK">
+<createdBy>freit</createdBy>
+<createdTime>2023-02-09 01:42:11 UTC</createdTime>
+<ownerDesignName>modeloLogicoAPPMusica</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B6373475-6DA3-DA21-532D-BF0FD4920EF5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

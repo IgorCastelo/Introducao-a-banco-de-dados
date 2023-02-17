@@ -1,0 +1,72 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="51068BD3-1791-7003-A1D7-D7301EA5EA8E" name="lista_reproducao">
+<createdBy>freit</createdBy>
+<createdTime>2023-02-09 01:46:06 UTC</createdTime>
+<ownerDesignName>modeloLogicoAPPMusica</ownerDesignName>
+<ordsAlias>table_11</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_lista" id="8B32F036-1BE7-B3F6-3653-85EC6E14F643">
+<createdBy>freit</createdBy>
+<createdTime>2023-02-09 01:47:40 UTC</createdTime>
+<ownerDesignName>modeloLogicoAPPMusica</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>1</dataTypePrecision>
+<ownDataTypeParameters>,1,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nome_lista" id="9673CA27-F95F-8C04-C410-B7506237755F">
+<createdBy>freit</createdBy>
+<createdTime>2023-02-09 01:47:40 UTC</createdTime>
+<ownerDesignName>modeloLogicoAPPMusica</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>80</dataTypeSize>
+<ownDataTypeParameters>80,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="usuario_id_usuario" id="5BCA5B0C-0CC9-4EEA-985A-B6536EE556AC">
+<createdBy>freit</createdBy>
+<createdTime>2023-02-09 02:26:44 UTC</createdTime>
+<ownerDesignName>modeloLogicoAPPMusica</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>1</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="78B17A3C-40B1-9F47-E7F5-2E4DBC781835" referredColumn="00F179A1-CD04-340C-B3C0-A5D36D229EC1"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="BC0FD42F-DBF1-ED28-4CF7-22AB4D894FFC" name="lista_reproducao_PK">
+<createdBy>freit</createdBy>
+<createdTime>2023-02-09 01:47:40 UTC</createdTime>
+<ownerDesignName>modeloLogicoAPPMusica</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8B32F036-1BE7-B3F6-3653-85EC6E14F643"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3A70FEE8-3E99-1C25-59E4-0F471944F11F" name="lista_reproducao_usuario_FK">
+<createdBy>freit</createdBy>
+<createdTime>2023-02-09 02:26:44 UTC</createdTime>
+<ownerDesignName>modeloLogicoAPPMusica</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5BCA5B0C-0CC9-4EEA-985A-B6536EE556AC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

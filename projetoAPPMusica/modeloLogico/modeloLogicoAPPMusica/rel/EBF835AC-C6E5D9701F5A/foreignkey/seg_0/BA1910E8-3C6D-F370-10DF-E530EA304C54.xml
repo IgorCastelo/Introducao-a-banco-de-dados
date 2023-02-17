@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="BA1910E8-3C6D-F370-10DF-E530EA304C54" containerWithKeyObject="8ADD1EF7-C034-B1B2-A98F-7B50EF334711" localFKIndex="79975449-E311-C017-DE74-1C36E3374741" name="Artista_pais_FK">
+<createdBy>freit</createdBy>
+<createdTime>2023-02-09 01:42:11 UTC</createdTime>
+<ownerDesignName>modeloLogicoAPPMusica</ownerDesignName>
+<referredTableLongName>pais</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>CA1A998C-43BE-7360-9E91-C30C40A5E5C1</referredTableID>
+<keyObject>21FADC6D-AB4E-FC65-85A5-48ACE69B2F7C</keyObject>
+<referredKeyID>21FADC6D-AB4E-FC65-85A5-48ACE69B2F7C</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_pais</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
